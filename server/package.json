@@ -1,0 +1,26 @@
+{
+  "name": "todo-server",
+  "version": "0.0.1",
+  "description": "simple todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "grunt": "^0.4.5",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.1",
+    "socket.io": "^1.3.6"
+  }
+}
